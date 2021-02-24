@@ -1,0 +1,93 @@
+body{
+
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation:slide 10s infinite;
+  
+  height:100vh;
+  }
+  
+  @keyframes slide{
+      0%{
+       background-image:url("https://www.tripsavvy.com/thmb/UCFXMnijwQXJYtakOxma39t68T8=/3008x1692/smart/filters:no_upscale()/GettyImages-592363827-57b4055b3df78cd39c14765e.jpg"),center / cover, 
+       linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5));
+      }
+      20%{
+          background-image:   url("https://www.planetware.com/photos-large/MAR/morocco-agadir-essaouira-shoreline.jpg")
+          linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5));  
+      }
+      40%{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+          url("https://wallpaperaccess.com/full/1392634.jpg");
+      }
+      60%{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+          url("https://themoroccanguide.files.wordpress.com/2015/02/blue-city-of-chefchaouen-morocco.jpg");
+      }
+      80%{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+          url("https://www.forbes.fr/wp-content/uploads/2019/07/maroc-3-740x413.jpg");
+      }
+      100%{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+          url("https://www.lesjardinsdelamedina.com/blog/wp-content/uploads/2019/12/dakhla-maroc-1.jpg");
+      }
+      
+  
+  }
+ul {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  display:none;
+
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  
+text-decoration: none;
+ border-radius: 10px;
+ padding:20px 20px 20px 20px;
+ margin-right:50px;
+  width:100px;
+
+}
+
+a:hover{
+  background-color:rgb(255, 119, 40);
+  color:white;
+}
+
+.active {
+  background-color: #3d6bff;
+  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+
+}
+header{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 100;
+font-size: 300%;
+text-align:center;
+color:white;
+padding-top:10%;
+border-bottom:1px white;
+display:none;
+
+}
+p{
+text-align:center;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+display:none;
+}

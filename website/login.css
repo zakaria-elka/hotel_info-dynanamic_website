@@ -1,0 +1,117 @@
+body{
+
+
+background-size: cover;
+background-repeat: no-repeat;
+animation:slide 10s infinite;
+
+height:100vh;
+}
+
+@keyframes slide{
+    0%{
+     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)),
+      url("https://www.planetware.com/photos-large/MAR/morocco-agadir-essaouira-shoreline.jpg");
+    }
+    20%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+  url("https://www.tripsavvy.com/thmb/UCFXMnijwQXJYtakOxma39t68T8=/3008x1692/smart/filters:no_upscale()/GettyImages-592363827-57b4055b3df78cd39c14765e.jpg"); 
+    }
+    40%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+        url("https://wallpaperaccess.com/full/1392634.jpg");
+    }
+    60%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+        url("https://themoroccanguide.files.wordpress.com/2015/02/blue-city-of-chefchaouen-morocco.jpg");
+    }
+    80%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+        url("https://www.forbes.fr/wp-content/uploads/2019/07/maroc-3-740x413.jpg");
+    }
+    100%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(40, 36, 255, 0.5)), 
+        url("https://www.lesjardinsdelamedina.com/blog/wp-content/uploads/2019/12/dakhla-maroc-1.jpg");
+    }
+    
+
+}
+.center{
+background-image:linear-gradient(rgba(17, 128, 255, 0.5), rgba(35, 229, 255, 0.5));
+border-radius:10px;
+padding:30px 30px 50px 30px;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:10%;
+height:30%;
+display:none;
+
+
+}
+input{
+    text-align: center;
+    outline:none;
+    color:white;
+    
+
+}
+.lgtxt{
+text-align:center;
+font-family:-apple-system, BlinkMacSystemFont;
+color:rgba(255, 255, 255, 0.726);
+
+}
+.btn{
+
+    display:block;
+    width:70px;
+    margin:0 auto;
+    border-radius:10px;
+    color:rgba(255, 255, 255, 0.726);
+    background-color: rgb(40, 61, 255);
+    padding:5px;
+    opacity:70%;
+    outline:none;
+    border:none;
+
+}
+#user,#pas{
+    display:block;
+    margin:0 auto;
+    background:none;
+    border:none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.726);
+    outline:none;
+    
+
+}
+
+.labeling{
+    color:rgba(255, 255, 255, 0.726);
+    text-align: center;
+    display:block;
+    margin:0 auto;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+p{  color:rgba(255, 255, 255, 0.726);
+    text-align: center;
+    display:block;
+    margin:0 auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+   
+
+}
+.btn:active{
+
+ background-color:rgb(255, 119, 40);
+}
+.opt{
+
+    margin-top: 10px;    
+    }
+ 

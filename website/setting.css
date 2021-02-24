@@ -1,0 +1,72 @@
+body{
+background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR4ZNdRCmo-WNY6sz9IQqv8xeJLXVDxYNByw&usqp=CAU') 
+no-repeat center center fixed;
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+#inner{
+
+position: relative;
+display:inline;
+top:30px;
+
+
+}
+
+#delpas{
+
+height:31%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#inner2{
+
+position:absolute;
+top:55%;
+left:29%;
+}
+
+fieldset{
+
+background-color:rgb(227, 242, 255);
+border-color:rgb(13, 98, 255);;
+width:20%;
+margin-left: 7%;
+float: left;
+
+}
+legend{
+   
+width:80%;
+text-align:center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(13, 98, 255);
+color:rgb(255, 255, 255);
+}
+table{
+margin-left:auto;
+margin-right:auto;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.btn {
+
+color:white;
+}
+td{
+text-align:center;    
+}
+#message,#messagearea,#message3{
+display:none;    
+}
+textarea{
+resize:none;
+height:100px;
+
+}

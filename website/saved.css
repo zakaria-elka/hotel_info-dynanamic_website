@@ -1,0 +1,84 @@
+body{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR4ZNdRCmo-WNY6sz9IQqv8xeJLXVDxYNByw&usqp=CAU') 
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    
+    }
+
+
+#tab{
+width: 23%;
+position: absolute;
+left:10%;
+top:10%;
+}
+
+
+
+
+
+#aff{
+
+    width: 30%;
+    height: 50%;
+    border: 1px solide black;
+    position: absolute;
+    left:35%;
+    top:15%;
+    text-align: center;
+    
+    }
+
+.btn {
+    color: rgb(255, 255, 255);
+   
+  }
+.btn:hover{
+
+    color:brown;
+
+}  
+
+
+#formsav{
+    visibility: hidden;
+    position: absolute;  
+    top:0;
+    right: 0;
+    color:white;
+    }
+
+
+.fav{
+
+width: 20px;
+height: 20px;
+margin-top: 10px;
+float:right;
+
+}    
+
+
+#blabla{
+
+position: fixed;
+top:35%;
+left:40%;
+font-family: cursive;
+font-size:x-large;
+color:blanchedalmond;
+border: 1px solid black;
+text-decoration: underline;
+
+
+}
+
+#txt{
+
+position: absolute;
+left:40%
+
+}
